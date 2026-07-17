@@ -7,7 +7,7 @@ export const DashboardLayout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="flex h-screen w-screen overflow-hidden bg-gray-50">
+    <div className="flex h-screen w-screen overflow-hidden bg-indigo-100">
       {/* Sidebar Navigation */}
       <Sidebar 
         isOpen={sidebarOpen} 

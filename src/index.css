@@ -7,7 +7,7 @@
 
 @layer base {
   body {
-    @apply bg-gray-50 text-gray-900 font-sans antialiased;
+    @apply bg-indigo-100 text-gray-900 font-sans antialiased;
     font-family: 'Inter', sans-serif;
   }
 }

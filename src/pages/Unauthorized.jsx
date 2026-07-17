@@ -20,7 +20,7 @@ export const Unauthorized = () => {
   };
 
   return (
-    <div className="flex min-h-screen w-screen flex-col items-center justify-center bg-gray-50 px-4">
+    <div className="flex min-h-screen w-screen flex-col items-center justify-center bg-indigo-100 px-4">
       <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-red-50 text-red-600 shadow-md shadow-red-500/5">
         <ShieldX size={32} />
       </div>

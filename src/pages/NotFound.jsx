@@ -20,7 +20,7 @@ export const NotFound = () => {
   };
 
   return (
-    <div className="flex min-h-screen w-screen flex-col items-center justify-center bg-gray-50 px-4">
+    <div className="flex min-h-screen w-screen flex-col items-center justify-center bg-indigo-100 px-4">
       <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 shadow-md shadow-blue-500/5">
         <Compass size={32} />
       </div>

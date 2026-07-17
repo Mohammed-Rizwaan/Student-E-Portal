@@ -7,7 +7,7 @@ export const ProtectedRoute = ({ allowedRoles }) => {
 
   if (loading) {
     return (
-      <div className="flex h-screen w-screen items-center justify-center bg-gray-50">
+      <div className="flex h-screen w-screen items-center justify-center bg-indigo-100">
         <div className="h-8 w-8 animate-spin rounded-full border-4 border-blue-600 border-t-transparent"></div>
       </div>
     );
@@ -29,7 +29,7 @@ export const PublicRoute = () => {
 
   if (loading) {
     return (
-      <div className="flex h-screen w-screen items-center justify-center bg-gray-50">
+      <div className="flex h-screen w-screen items-center justify-center bg-indigo-100">
         <div className="h-8 w-8 animate-spin rounded-full border-4 border-blue-600 border-t-transparent"></div>
       </div>
     );

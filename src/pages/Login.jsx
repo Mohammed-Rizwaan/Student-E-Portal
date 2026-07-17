@@ -63,7 +63,7 @@ export const Login = () => {
   };
 
   return (
-    <div className="flex min-h-screen w-screen flex-col items-center justify-center bg-gray-50 px-4 py-12">
+    <div className="flex min-h-screen w-screen flex-col items-center justify-center bg-indigo-100 px-4 py-12">
       {/* Brand logo details */}
       <div className="mb-6 flex flex-col items-center">
         <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600 text-white font-extrabold text-xl shadow-lg shadow-blue-500/10">
