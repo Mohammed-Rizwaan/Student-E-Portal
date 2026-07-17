@@ -762,16 +762,7 @@ export const StudentProfile = ({ isStudentSelf = false }) => {
                           </td>
                           <td className="px-6 py-4 text-right">
                             {fee.status === 'Pending' ? (
-                              isReadOnly ? (
-                                <button
-                                  onClick={() => handlePayFee(fee.id, fee.semester)}
-                                  className="rounded-lg bg-blue-600 px-3 py-1.5 text-xs font-semibold text-white shadow-sm hover:bg-blue-700 transition-colors"
-                                >
-                                  Pay Now
-                                </button>
-                              ) : (
-                                <span className="text-xs text-amber-600 font-semibold italic">Awaiting Student Payment</span>
-                              )
+                              <span className="text-xs text-amber-600 font-semibold italic">Pending Payment</span>
                             ) : (
                               <span className="text-xs text-green-600 font-bold flex items-center justify-end gap-1">
                                 <ShieldCheck size={14} />
