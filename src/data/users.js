@@ -26,5 +26,19 @@ export const dummyUsers = [
     role: "student",
     name: "Shaik Farooq",
     avatar: "https://ui-avatars.com/api/?name=Shaik+Farooq&background=EF4444&color=fff"
-  }
+  },
+  {
+     userId: "243N6A0583",
+    password: "student123",
+    role: "student",
+    name: "Eluru Sruthi",
+    avatar: "https://ui-avatars.com/api/?name=Eluru+Sruthi&background=EF4444&color=fff"
+  },
+  {
+     userId: "243N6A0511",
+    password: "student123",
+    role: "student",
+    name: "P.Vani",
+    avatar: "https://ui-avatars.com/api/?name=P.Vani&background=EF4444&color=fff"
+  },
 ];
