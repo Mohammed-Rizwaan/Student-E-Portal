@@ -91,5 +91,67 @@ export const dummyStudents = [
       phone: "+91 95432 10987",
       address: "H.No. 45-B, Sector 2, Kukatpally, Hyderabad, Telangana - 500072"
     }
-  }
+  },
+   {
+    id: "243N6A0583",
+    rollNumber: "243N6A0583",
+    name: "Eluru Sruthi",
+    avatar: "https://ui-avatars.com/api/?name=Eluru+Sruthi&background=3B82F6&color=fff&size=128",
+    gender: "Female",
+    dob: "2006-1-29",
+    bloodGroup: "O+",
+    branch: "Computer Science & Engineering",
+    specialization: "Core",
+    joiningType: "Regular",
+    joiningYear: "2024",
+    passingYear: "2028",
+    mentorId: "bhagya01",
+    parentDetails: {
+      fatherName: "Eluru",
+      fatherOccupation: "Business Owner",
+      fatherPhone: "+91 91234 56780",
+      motherName: "Eluru",
+      motherOccupation: "Homemaker",
+      motherPhone: "+91 91234 56781",
+      guardianName: "",
+      guardianOccupation: "",
+      guardianPhone: ""
+    },
+    contactInfo: {
+      email: "243n6a0583@pvkkit.ac.in",
+      phone: "+91 90123 45678",
+      address: "123, Green Meadows Colony, Sector 4, Hyderabad, Telangana - 500081"
+    }
+  },
+   {
+    id: "243N6A0511",
+    rollNumber: "243N6A0511",
+    name: "P.Vani",
+    avatar: "https://ui-avatars.com/api/?name=P.Vani&background=3B82F6&color=fff&size=128",
+    gender: "Female",
+    dob: "2005-6-29",
+    bloodGroup: "O+",
+    branch: "Computer Science & Engineering",
+    specialization: "Core",
+    joiningType: "Regular",
+    joiningYear: "2024",
+    passingYear: "2028",
+    mentorId: "bhagya01",
+    parentDetails: {
+      fatherName: "Vani's Father",
+      fatherOccupation: "Business Owner",
+      fatherPhone: "+91 91234 56780",
+      motherName: "Vani's Mother",
+      motherOccupation: "Homemaker",
+      motherPhone: "+91 91234 56781",
+      guardianName: "",
+      guardianOccupation: "",
+      guardianPhone: ""
+    },
+    contactInfo: {
+      email: "243n6a0511@pvkkit.ac.in",
+      phone: "+91 90123 45678",
+      address: "123, Green Meadows Colony, Sector 4, Hyderabad, Telangana - 500081"
+    }
+  },
 ];
